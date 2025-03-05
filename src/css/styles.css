@@ -8,11 +8,13 @@
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
-@import url('./animations.css');
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
+@import url('./top.css');
+@import url('./movie-about.css');
+@import url('./list-movies.css');
+@import url('./category-movies.css');
+@import url('./top-movies.css');
+@import url('./search-movies.css');
 @import url('./footer.css');

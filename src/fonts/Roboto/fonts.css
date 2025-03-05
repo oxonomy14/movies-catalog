@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'FAMILY_NAME';
+  font-style: NORMAL_OR_ITALIC;
+  font-weight: NUMERIC_WEIGHT_VALUE;
+  font-display: swap;
+  src: url(FONT_FILE_NAME.woff2) format('woff2');
+}

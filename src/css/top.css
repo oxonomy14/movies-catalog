@@ -1,0 +1,117 @@
+.section-top {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/Dark-bg-mobile.jpg);
+  background-color: #2e2f42;
+  background-repeat: no-repeat;
+  /* padding: 72px 0; */
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.section-top-title {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 27.58px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #fff;
+}
+
+.section-top-title span {
+  font-weight: 700;
+}
+
+.section-top-button {
+  background-color: #e13c52;
+
+  color: #fff;
+}
+
+@media (min-resolution: 192dpi) {
+  .section-top {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-mobile@2x.jpg);
+  }
+}
+
+@media (min-width: 768px) {
+  .section-top {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-tablet.jpg);
+    background-color: #2e2f42;
+    /* padding: 112px 0; */
+  }
+
+  @media (min-resolution: 192dpi) {
+    .section-top {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-tablet@2x.jpg);
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-top {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.1),
+        rgba(46, 47, 66, 0.1)
+      ),
+      url(../img/webp/mdb-slide-1.webp);
+
+    /* padding: 120px 58px 120px 70px; */
+    max-width: 1440px;
+    height: 600px;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .section-top {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../img/webp/mdb-slide-1@2x.webp);
+    }
+  }
+
+  .section-top-title {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 55.15px;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 423px;
+  }
+
+  .section-top-title span {
+    font-weight: 700;
+  }
+
+  .section-top-button {
+    margin-top: 60px;
+    width: 238px;
+    height: 48px;
+    border-radius: 60px;
+    padding-top: 10px;
+    padding-right: 34px;
+    padding-bottom: 10px;
+    padding-left: 34px;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 27.58px;
+    letter-spacing: 0%;
+  }
+}
